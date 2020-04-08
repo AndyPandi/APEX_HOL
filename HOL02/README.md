@@ -24,7 +24,7 @@
 
 * client-side interactivity declaratively 정의하는 방법 배우기
 
-`*노트: 이번 실습에서는 Oracle APEX 19.2를 사용합니다.*`
+  *노트: 이번 실습에서는 Oracle APEX 19.2를 사용합니다.*
 
 
 
@@ -33,13 +33,13 @@
 |  #   | Module                                                       | Est. Time |
 | :---: | --- | ---: |
 |  1   | [APEX Workspace 에 가입하기](module1.md) | 5 min     |
-|  2   | [샘플 테이블 설치하기](Module2.md) | 5 min     |
-|  3   | [애플리케이션 생성하기](Module3.md) | 20 min    |
-|  4   | [애플리케이션 재생성하기](Module4.md) | 5 min     |
-|  5   | [대시보드 개선하기](Module5.md) | 5 min     |
-|  6   | [프로젝트 개선하기](Module6.md) | 15 min    |
-|  7   | [마일스톤 개선하기](Module7.md) | 5 min     |
-|  8   | [Task 개선하기](Module8.md) | 15 min    |
+|  2   | [샘플 테이블 설치하기](module2.md) | 5 min     |
+|  3   | [애플리케이션 생성하기](module3.md) | 20 min    |
+|  4   | [애플리케이션 재생성하기](module4.md) | 5 min     |
+|  5   | [대시보드 개선하기](module5.md) | 5 min     |
+|  6   | [프로젝트 개선하기](module6.md) | 15 min    |
+|  7   | [마일스톤 개선하기](module7.md) | 5 min     |
+|  8   | [Task 개선하기](module8.md) | 15 min    |
 
 
 
