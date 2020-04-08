@@ -32,14 +32,14 @@
 
 |  #   | Module                                                       | Est. Time |
 | :---: | --- | ---: |
-|  1   | [APEX Workspace 에 가입하기](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md) | 5 min     |
-|  2   | [샘플 테이블 설치하기](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md) | 5 min     |
-|  3   | [애플리케이션 생성하기](3-linking-the-rest-service-defined-in-the-first-workspace-adding-a-web-source-for-emp.md) | 20 min    |
-|  4   | [애플리케이션 재생성하기](4-defining-the-report-and-form-on-emp-creating-pages.md) | 5 min     |
-|  5   | [대시보드 개선하기](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 5 min     |
-|  6   | [프로젝트 개선하기](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 15 min    |
-|  7   | [마일스톤 개선하기](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 5 min     |
-|  8   | [Task 개선하기](5-using-the-rest-service-on-dept-defining-list-of-values.md) | 15 min    |
+|  1   | [APEX Workspace 에 가입하기](module1.md) | 5 min     |
+|  2   | [샘플 테이블 설치하기](Module2.md) | 5 min     |
+|  3   | [애플리케이션 생성하기](Module3.md) | 20 min    |
+|  4   | [애플리케이션 재생성하기](Module4.md) | 5 min     |
+|  5   | [대시보드 개선하기](Module5.md) | 5 min     |
+|  6   | [프로젝트 개선하기](Module6.md) | 15 min    |
+|  7   | [마일스톤 개선하기](Module7.md) | 5 min     |
+|  8   | [Task 개선하기](Module8.md) | 15 min    |
 
 
 
