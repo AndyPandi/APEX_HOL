@@ -12,7 +12,7 @@ APEX Workspace는 APEX 애플리케이션을 정의하는 논리적인 도메인
 
 APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 있습니다. "Always Free" Oracle Autonomous Databse의 "Development Only" 또는 apex.oracle.com 의 무료 서비스, 그리고 APEX 19.2가 설치된 Oracle 데이터베이스 타사 클라우드, Oracle XE 또는 Oracle VirtualBox App Dev VM과 APEX 19.2를 노트북에 설치해서 APEX 를 실행할 수 있습니다.
 
-## 옵션 1: Oracle Autonomous Database
+## 옵션 1 : Oracle Autonomous Database
 
 이 파트에서는 Oracle Cloud 트라이얼 계정을 생성할 것입니다. 서비스에 가입한 후 Autonomouse Transaction Processing 데이터베이스를 생성할 것입니다. 그리고 이 프로세스의 마지막 단계에서 Oracle APEX를 프로비저닝 합니다.
 
@@ -92,7 +92,7 @@ APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 
 
 13. APEX 인스턴스 관리자 화면 상단의 메시지에서 **DEMO** 링크를 클릭합니다.
 
-    *노트: 새 workspace 에 로그인 할 수 있도록 APEX Administration 에서 로그아웃 하세요.*
+    *( 참고 : 신규 workspace 에 로그인 할 수 있도록 APEX Administration 에서 로그아웃 하세요. )*
 
     ![](images/log-out-from-admin.png)
 
@@ -102,4 +102,52 @@ APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 
 
     
 
-    
+## 옵션2 : apex.oracle.com
+
+본인이 만들고자 하는 workspace에 대한 세부사항을 제공한 후 승인 이메일을 기다리는 단순한 방법으로 apex.oracle.com 에 등록할 수 있습니다.
+
+1. [https://apex.oracle.com](https://apex.oracle.com/) 에 접속합니다.
+
+2. **``Get Started for Free``** 버튼을 클릭합니다.
+
+   ![](images/get-started.png)
+
+3. apex.oracle.com 에 대한 설명이 있는 부분까지 스크롤을 내린 후  **``Request a Free Workspace``** 버튼을 클릭합니다.
+
+   ![](images/request-workspace.png)
+
+4. **Request a Workspace** 다이얼로그에서 사용자 상세 정보를 입력합니다. First Name, Last Name, Email, Workspace
+
+   *( 참고 : workspace의 경우 고유한 이름을 입력하세요. )*
+
+   **``Next``** 버튼을 클릭합니다.
+
+   ![](images/request-a-workspace.png)
+
+5. 남아있는 스텝을 완료 합니다.
+
+6. 이메일을 확인하세요. 몇분이내 oracle-application-express_ww@oracle.com에서 메일을 수진할 것 입니다.
+
+   *( 참고 : 만약 이메일을 수진하지 못한다면 3번으로 가셔서 이메일을 정확이 입력했는지 확인하세요. )*
+
+   이메일 본문에 있는 **``Create Workspace``** 버튼을 클릭합니다.
+
+   ![](images/create-aoc-workspace.png)
+
+7. **``Continue to Sign In Screen``** 버튼을 클릭하세요.
+
+8. 사용할 패스워드를 입력한 후 **``Apply Changes``** 버튼을 클릭하세요.
+
+9. 이제 **APEX Builder** 에 접속했습니다.
+
+   ![](images/apex-builder.png)
+
+
+
+## 요약
+
+This completes the lab setup. At this point, you know how to create an APEX Workspace and you are ready to start building amazing apps, fast.
+
+이렇게 실습을 위한 셋업을 완료했습니다. 이 시점에서 여러분은 APEX Workspace 를 생성하는 방법을 알게 되었으며, 여러분은 놀라운 애플리케이션을 빠르게 구축할 수 있는 준비가 되었습니다.
+
+[모듈 2로 이동](Module2.md)하세요.

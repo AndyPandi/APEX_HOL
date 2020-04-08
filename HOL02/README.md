@@ -24,7 +24,7 @@
 
 * client-side interactivity declaratively 정의하는 방법 배우기
 
-  *노트: 이번 실습에서는 Oracle APEX 19.2를 사용합니다.*
+  *(참고 : 이번 실습에서는 Oracle APEX 19.2를 사용합니다.)*
 
 
 
