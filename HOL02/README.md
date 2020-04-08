@@ -16,7 +16,7 @@
 
 ## 핸즈 온 랩 모듈
 |  #   | Module                                                       | Est. Time |
-| :--: | --- | :-- |
+| :---: | --- | ---: |
 |  1   | [APEX Workspace 에 가입하기](1-building-your-rest-end-points-creating-a-sample-tables-and-rest-enabling.md) | 5 min     |
 |  2   | [샘플 테이블 설치하기](2-building-your-app-which-will-be-based-on-the-rest-endpoints-creating-the-app.md) | 5 min     |
 |  3   | [애플리케이션 생성하기](3-linking-the-rest-service-defined-in-the-first-workspace-adding-a-web-source-for-emp.md) | 20 min    |
