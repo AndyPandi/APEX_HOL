@@ -124,9 +124,9 @@ APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 
 
    ![](images/request-a-workspace.png)
 
-5. 남아있는 스텝을 완료 합니다.
+5. 남아있는 스텝들을 모두 완료 합니다.
 
-6. 이메일을 확인하세요. 몇분이내 oracle-application-express_ww@oracle.com에서 메일을 수진할 것 입니다.
+6. 이메일을 확인하세요. 몇분이내 oracle-application-express_ww@oracle.com에서 메일을 수신할 것 입니다.
 
    *( 참고 : 만약 이메일을 수진하지 못한다면 3번으로 가셔서 이메일을 정확이 입력했는지 확인하세요. )*
 
