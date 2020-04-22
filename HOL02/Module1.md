@@ -8,15 +8,15 @@ Oracle Application Express (APEX)는 Oracle 데이터베이스의 기능으로 A
 
 APEX Workspace는 APEX 애플리케이션을 정의하는 논리적인 도메인 입니다. 각 workspace는 데이터베이스의 테이블, 뷰, 패키지 등의 object들을 저장하는데 사용되는 하나 이상의 데이터베이스 스키마와 연관되어 있습니다. 이러한 데이터베이스 object들은 일반적으로 APEX 애플리케이션을 기반으로 구축되는것 입니다.
 
-## 실습을 실행하는 곳
+## APEX 실습을 실행하는 방법
 
-APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 있습니다. "Always Free" Oracle Autonomous Databse의 "Development Only" 또는 apex.oracle.com 의 무료 서비스, 그리고 APEX 19.2가 설치된 Oracle 데이터베이스 타사 클라우드, Oracle XE 또는 Oracle VirtualBox App Dev VM과 APEX 19.2를 노트북에 설치해서 APEX 를 실행할 수 있습니다.
+APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 있습니다. ***Always Free*** Oracle Autonomous Databse 에서 제공하는 **Oracle APEX** 또는 **apex.oracle.com** 의 무료 서비스 그리고 APEX 19.2가 설치된 Oracle 데이터베이스, 타사 클라우드, Oracle XE 또는 Oracle VirtualBox App Dev VM과 APEX 19.2를 노트북에 설치해서 APEX 를 실행할 수 있습니다.
 
 ## 옵션 1 : Oracle Autonomous Database
 
 이 파트에서는 Oracle Cloud 트라이얼 계정을 생성할 것입니다. 서비스에 가입한 후 Autonomouse Transaction Processing 데이터베이스를 생성할 것입니다. 그리고 이 프로세스의 마지막 단계에서 Oracle APEX를 프로비저닝 합니다.
 
-1. [무료계정 생성을 위해 이 링크](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType)를 클릭하세요. 등록 절차를 완료하면 $300(또는 S$400) 크레딧과 이번 실습을 위한 "Always Free" 서비스들을 제공받게 됩니다. 그리고 Oracle 클라우드의 남은 크레딧은 계속해서 사용할 수 있습니다. Always Free 서비스는 트라이얼 기간이 만료가 된 이후에도 계속 동작 됩니다.
+1. [무료계정 생성을 위해 이 링크](https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType)를 클릭하세요. 등록 절차를 완료하면 $300 크레딧과 이번 실습을 위한 ***Always Free*** 서비스들을 제공받게 됩니다. 그리고 Oracle 클라우드의 남은 크레딧은 계속해서 사용할 수 있습니다. Always Free 서비스는 트라이얼 기간이 만료가 된 이후에도 계속 동작 됩니다.
 
 2. 평가판 요청을 완료하면 **Get Started Now with Oracle Cloud**라는 내용의 메일이 발송됩니다. **사용자명(Username), 패스워드(Password)** 그리고 **어카운트명(Cloud Account)**을 기억해두세요.
 
@@ -104,7 +104,7 @@ APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 
 
 ## 옵션2 : apex.oracle.com
 
-본인이 만들고자 하는 workspace에 대한 세부사항을 제공한 후 승인 이메일을 기다리는 단순한 방법으로 apex.oracle.com 에 등록할 수 있습니다.
+본인이 만들고자 하는 workspace에 대한 세부사항을 제공한 후 승인 이메일 기다리는 간단한 방법으로 apex.oracle.com 에 등록할 수 있습니다.
 
 1. [https://apex.oracle.com](https://apex.oracle.com/) 에 접속합니다.
 
@@ -146,8 +146,4 @@ APEX 19.2가 설치된 Oracle 데이터베이스에서 이 랩을 실행할 수 
 
 ## 요약
 
-This completes the lab setup. At this point, you know how to create an APEX Workspace and you are ready to start building amazing apps, fast.
-
-이렇게 실습을 위한 셋업을 완료했습니다. 이 시점에서 여러분은 APEX Workspace 를 생성하는 방법을 알게 되었으며, 여러분은 놀라운 애플리케이션을 빠르게 구축할 수 있는 준비가 되었습니다.
-
-[모듈 2로 이동](Module2.md)하세요.
+실습을 위한 셋업을 완료했습니다. 이제 여러분은 APEX Workspace 를 생성하는 방법을 배웠으며, 뛰어난 애플리케이션을 빠르게 구축할 수 있는 준비가 되었습니다. [모듈 2로 이동](Module2.md)하세요.

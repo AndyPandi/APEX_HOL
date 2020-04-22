@@ -6,17 +6,17 @@
 
 ## 파트 1 - 공유된 값 리스트 정의하기
 
-런타임 환경에서 Tasks Search 및 리뷰 페이지로 이동하세요. Complete 가 "Y" 를 표시하는 방법에 주목해주세요. 이제 Task Report 로 이동하면 동일한 문제가 발견됩니다. "Yes" 또는 "No" 를 표시하는 것이 훨씬 좋을 것입니다. 이는 밸류 목록(LOV)을 정의하면 쉽게 달성할 수 있습니다.
+애플리케이션 실행 상태에서 Tasks Search 메뉴를 클릭해 페이지를 살펴보세요. Is Complete 컬럼의 데이터가 "Y" 를 표시되는 것에 주목해봅니다. 이제 Task Report 로 이동해 봅니다. 여기에도 동일한 문제가 발견됩니다. 이 항목을 "Yes" 또는 "No" 를 표시하는 것이 훨씬 좋을 것 같습니다.  이는 List of Values (LOV)를 정의하면 쉽게 적용할 수 있습니다.
 
 페이지에서 직접 LOV 를 정의할 수 있습니다. 그러나 여기서 처럼 여러 페이지에 동일한 LOV가 필요한 경우에는 Shared Component 로 한번 정의하는 것이 훨씬 좋습니다.
 
-1. 앱 빌더 브라우저 탭으로 이동합니다.
+1. App Builder 의 해당 Application 메인화면으로 이동합니다.
 
-2. 애플리케이션 홈 화면에서 **Shared Components** 를 클릭하세요.
+2. 애플리케이션 메인화면에서 **Shared Components** 를 클릭하세요.
 
    ![](images/app-home.png)
 
-   또는 페이지 디자이너의 도구모음에서 Shared Components 아이콘을 클릭하는 하세요.
+   또는 Page Designer 의 도구모음에서 Shared Components 아이콘을 클릭하는 하세요.
 
    ![](images/pd.png)
 
@@ -25,11 +25,11 @@
    ![](images/go-lov.png)
 
 4. 거기에는 이미 몇개의 LOV 리스트가 존재하는 것을 보게 될 것입니다.
-   새 LOV 를 생성하기 위해 **Create** 버튼을 클릭하세요.
+   새 LOV 를 생성하기 위해 **``Create``** 버튼을 클릭하세요.
 
    ![](images/create-lov.png)
 
-5. Create List of Values 다이얼로그에서 소스에 대한 디폴트 선택사항을 유지합니다. ("From Scratch")
+5. Create List of Values 다이얼로그에서 소스에 대한 default 선택항목을 그대로 둡니다. ("From Scratch")
    **Next** 클릭
 
 6. Name, Type 다이얼로그에서 다음과 같이 입력하세요.
@@ -54,21 +54,21 @@
 
 
 
-## 파트 2 - 검색바(측면) 업데이트
+## 파트 2 - 측면 검색바 업데이트
 
 이제 shared component 를 정의했으므로 Faceted Search 페이지에서 이를 활용하세요.
 
-1. breadcrumbs 에서 **Application xxxxx** 클릭
+1. 상단의 현재위치 표시항목에서 **Application xxxxx** 클릭
 
    ![](images/go-home.png)
 
-2. 애플리케이션 홈 화면에서 **3 - Tasks Search** 클릭
+2. 애플리케이션 메인화면에서 **3 - Tasks Search** 클릭
 
    ![](images/go-page3.png)
 
-3. 먼저 건색 항목들을 업데이트 하세요.
-   페이지 디자이너 내 Rendering tree (왼쪽창) 의 Search 아래에 있는 **P3_IS_COMPLETE_YN** 를 클릭.
-   페이지 에디터 (오른쪽창) 에서 다음과 같이 입력하세요.
+3. 먼저 검색 항목들을 업데이트 하세요.
+   Page Designer 내 Rendering tree (왼쪽창) 의 Search 아래에 있는 **P3_IS_COMPLETE_YN** 를 클릭.
+   Page Editor (오른쪽창) 에서 다음과 같이 입력하세요.
 
    - List of Values > Type : **Shared Component** 선택
    - List of Values > List of Values : **YES_NO** 선택
@@ -87,7 +87,7 @@
    ![](images/set-report.png)
 
 5. 레포트에는 많은 컬럼이 있습니다. Description 컬럼은 너무 많은 공간을 차지하므로 숨겨야 합니다.
-   Rendering tree (왼쪽창), **Project Tasks** 아래 컬럼 목록에 있는 **DESCRIPTION** 클릭.
+   Rendering tree (왼쪽창) 의 **Project Tasks** 아래 컬럼 목록에 있는 **DESCRIPTION** 클릭.
    Property Editor (오른쪽창) Identification > Type 항목에서 **Hidden Column** 선택.
 
    ![](images/hide-desc.png)
@@ -104,29 +104,31 @@
    ![](images/order-facet.png)
 
 7. 측면 검색창이 완료된 것을 확인해봅시다.
-   Page Designer 툴바에서 **Save and Run** 클릭.
+   Page Designer 오른쪽 상단의 **Save and Run** 클릭.
 
    ![](images/facet-complete.png)
 
 
 
-## 파트 3 - 대화형 레포트 업데이트
+## 파트 3 - Interactive Report 업데이트
 
 Tasks Report 또한 Complete 컬럼을 업데이트해야 합니다.
 
-1. 런타임 환경의 메뉴에서 **Tasks Report** 클릭.
+1. 애플리케이션의 메뉴에서 **Tasks Report** 클릭.
    개발자 도구(화면 하단) 에서 **Edit Page 6** 클릭.
-   *( 참고 : 앱 빌더 브라우저 탭으로 돌아가면 수동으로 페이지 6으로 갈 수도 있습니다. )*
+   *( 참고 : App Builder 탭으로 돌아가면 수동으로 페이지 6으로 갈 수도 있습니다. )*
 
-2. Page Designer 에서 **Page 6: Tasks Report** 를 선택, Rendering tree (왼쪽창) 의 **Project Tasks** 영역 아래의 **Columns** 항목을 펼칩니다.
-   컬럼 목록에서 **IS_COMPLETE_YN** 클릭.
+2. Page Designer 에서 **Page 6: Tasks Report** 를 선택
+   
+   Rendering tree (왼쪽창) 의 **Project Tasks** 영역 아래의 **Columns** 항목을 펼칩니다.
+컬럼 목록에서 **IS_COMPLETE_YN** 클릭.
    Property Editor (오른쪽창) 에서 다음과 같이 입력 :
-
-   - Identification > Type : **Plain Text (based on List of Values)** 선택
+   
+- Identification > Type : **Plain Text (based on List of Values)** 선택
    - List of Values > List of Values : **YES_NO** 선택
 
    ![](images/set-ir.png)
-
+   
 3. 애플리케이션 실행.
    Page Designer 툴바에서 **Save and Run** 클릭.
 
@@ -134,15 +136,15 @@ Tasks Report 또한 Complete 컬럼을 업데이트해야 합니다.
 
 4. 레코드의 수정 아이콘 클릭.
    Is Complete 컬럼은 Switch 를 사용하므로 폼 화면을 수정할 필요가 없습니다.
-   *( 참고 : 폼 화면은 7 페이지로 다음 파트에서 필요할 것 입니다. )*
+   *( 참고 : 상세 화면은 7 페이지로 다음 파트에서 필요할 것 입니다. )*
 
 
 
 ## 파트 4 - Calendar 연결
 
-Tasks Calendar 페이지는 수많은 작업들을 보여줍니다. 그러나 여기서 그 작업들 데이터를 바로 수정할 방법은 없습니다. 따라서 페이지에서 Project Task 페이지로 링크를 추가 해야합니다.
+Tasks Calendar 페이지는 수많은 Task들을 보여줍니다. 그러나 여기서 그 Task 데이터를 바로 수정할 방법은 없습니다. 따라서 페이지에서 Project Task 페이지로 링크를 추가 해야합니다.
 
-1. 런타임 환경에서 네비게이션 메뉴의 **Tasks Calendar** 클릭
+1. 애플리케이션의 왼쪽 메뉴에서 **Tasks Calendar** 클릭
 
 2. 이벤트 세부 정보를 간단히 표시하려면 아무 항목이나 클릭하세요.
 
@@ -154,17 +156,18 @@ Tasks Calendar 페이지는 수많은 작업들을 보여줍니다. 그러나 �
    Property Editor (오른쪽창) 의 Settings > View / Edit Link 에서 **No Link Defined** 클릭.
    Link Builder 다이얼로그에서 다음과 같이 입력 :
 
+   - Type : Page in this application 선택
    - Target > Page : **7** 선택
    - Set Items > Name : **P7_ID** 선택
    - Set Items > Value : **ID** 선택 ( **&ID** 입력됨 )
    - Clear Cache : **7** 입력
-   - **OK** 클릭
-
-   ![](images/set-link-m8.png)
-
+- **OK** 클릭
+   
+![](images/set-link-m8.png)
+   
 5. 달력에서 호출된 Project Task 양식 페이지에서 Task Name, Start Date 또는 End Date 가 업데이트되면 달력도 업데이트 되는 것이 중요합니다.
    Rendering tree (왼쪽창) 에서 **Tasks Calendar** 마우스 오른쪽 버튼 클릭.
-   **Dynamic Actions** 선택.
+   **Create Dynamic Actions** 클릭.
 
    ![](images/go-da-m8.png)
 
@@ -183,9 +186,11 @@ Tasks Calendar 페이지는 수많은 작업들을 보여줍니다. 그러나 �
    - Affected Elements > Selection Type : **Region** 선택
    - Affected Elements > Region : **Tasks Calendar** 선택
 
-   ![](images/set-true.png)
+   오른쪽 상단의 **``Save``** 버튼클릭.
 
-8. 런타임 환경으로 돌아간 뒤 브라우저를 리프레시 합니다.
+   ![](images/set-true.png)
+   
+8. 애플리케이션 실행상태로 가서 브라우저를 리프레시 합니다.
    캘린더 항목 클릭
 
    ![](images/final-cal.png)
