@@ -46,7 +46,7 @@
 
 ## **파트 3** – Dashboard 페이지 추가
 
-Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보여주는 좋은 방법입니다. 샘플 데이터셋을 생성할 때 다양한 테이블의 데이터를 조인해 놓은 **SAMPLE$PROJECTS_V** 뷰도 생성 되었습니다. 이 뷰는 Dashboard 차트의 기반으로 사용하기 이상적입니다.
+Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보여주는 좋은 방법입니다. 샘플 데이터셋을 생성할 때 다양한 테이블의 데이터를 조인해 놓은 **EBA_PROJECTS_V** 뷰도 생성 되었습니다. 이 뷰는 Dashboard 차트의 기반으로 사용하기 이상적입니다.
 
 1. Create an Application 도구에서 **Add Page**를 클릭하세요.
 
@@ -60,7 +60,7 @@ Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보�
 
      * Chart Name : **Budget versus Cost** 입력
 
-     * Table or View : **SAMPLE$PROJECTS_V** 선택
+     * Table or View : **EBA_PROJECTS_V** 선택
 
      * Label Column : **NAME** 선택
 
@@ -74,7 +74,7 @@ Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보�
 
      - Chart Name : **Project Status** 입력
 
-     - Table or View : **SAMPLE$PROJECTS_V** 선택
+     - Table or View : **EBA_PROJECTS_V** 선택
 
      - Label Column : **Status** 선택
 
@@ -86,7 +86,7 @@ Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보�
 
      - Chart Type : **Bar** 선택
      - Chart Name : **Project Leads** 입력
-     - Table or View : **SAMPLE$PROJECTS_V** 선택
+     - Table or View : **EBA_PROJECTS_V** 선택
      - Label Column : **PROJECT_LEAD** 선택
      - Type : **Count** 선택
 
@@ -100,7 +100,7 @@ Dashboard 페이지는 다양한 차트를 사용하여 중요한 정보를 보�
 
 ## **파트 5** – 프로젝트 페이지 추가
 
-Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부사항만 표시하고자 할 때 좋습니다. **SAMPLE$PROJECTS** 테이블은 12개의 레코드만 가지고 있으며 카드 페이지에서 잘 동작할 것입니다.
+Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부사항만 표시하고자 할 때 좋습니다. **EBA_PROJECTS** 테이블은 12개의 레코드만 가지고 있으며 카드 페이지에서 잘 동작할 것입니다.
 
 1. Create Application 화면에서 **Add Page** 를 클릭.
 
@@ -111,7 +111,7 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 3. Add Cards Page에서 아래와 같이 입력하세요
 
    - Page Name : **Projects** 입력
-   - Table : **SAMPLE$PROJECTS** 선택
+   - Table : **EBA_PROJECTS** 선택
    - Card Title : **NAME** 선택
    - Description : **Description** 선택
    - Additional Text : **PROJECT_LEAD** 선택
@@ -123,7 +123,7 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 
 ## **파트 6** - 마일스톤 페이지 추가하기
 
-**SAMPLE$MILESTONES** 에는 30개의 레코드가 존재합니다. 따라서 레포트 페이지와 관련된 페이지 양식을 추가하세요.
+**EBA_MILESTONES** 에는 30개의 레코드가 존재합니다. 따라서 레포트 페이지와 관련된 페이지 양식을 추가하세요.
 
 1. Create Application 화면에서 **Add Page** 를 클릭하세요.
 
@@ -134,11 +134,11 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 3. Add Report Page에서 아래와 같이 입력하세요.
 
    - Page Name : **Milestones** 입력
-   - Table : **SAMPLE$PROJECT_MILESTONES** 선택
+   - Table : **EBA_PROJECT_MILESTONES** 선택
    - **Include Form** 체크
    - Lookup Columns 확장
      - Lookup Key 1 : **PROJECT_ID** 선택
-     - Display Col 1 : **SAMPLE$PROJECTS.NAME** 선택
+     - Display Col 1 : **EBA_PROJECTS.NAME** 선택
    - **``Add Page``** 버튼을 클릭하세요
 
    ![](images/set-milestones.png)
@@ -147,7 +147,7 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 
 ## **파트 7** - Task 페이지 추가하기
 
-**SAMPLE$PROJECT_TASKS** 테이블은 가장 많은 데이터를 조회하고 업데이트하는 주요한 테이블입니다. 따라서 이 표에 Faceted Search 페이지, Report and Form 페이지 및 Calendar 페이지를 추가하세요.
+**EBA_PROJECT_TASKS** 테이블은 가장 많은 데이터를 조회하고 업데이트하는 주요한 테이블입니다. 따라서 이 표에 Faceted Search 페이지, Report and Form 페이지 및 Calendar 페이지를 추가하세요.
 
 1. Create Application 화면에서 **Add Page** 를 클릭
 
@@ -158,7 +158,7 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 3. Add Faceted Search Page 에서 아래와 같이 입력합니다.
 
    - Page Name : **Tasks Search** 입력
-   - Table : **SAMPLE$PROJECT_TASKS** 선택
+   - Table : **EBA_PROJECT_TASKS** 선택
    - **``Add Page``** 버튼 클릭
 
    ![](images/set-faceted.png)
@@ -178,13 +178,13 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 7. Add Report Page 에서 아래와 같이 입력하세요.
 
    - Page Name : **Tasks Report** 입력
-   - Table : **SAMPLE$PROJECT_TASKS** 선택
+   - Table : **EBA_PROJECT_TASKS** 선택
    - **Include Form** 체크
    - Lookup Columns 확장
      - Lookup Key 1 : **PROJECT_ID** 선택
-     - Display Col 1 : **SAMPLE$PROJECTS.NAME** 선택
+     - Display Col 1 : **EBA_PROJECTS.NAME** 선택
      - Lookup Key 2 : **MILESTONE_ID** 선택
-     - Display Col 2 : **SAMPLE$PROJECT_MILESTONES.NAME** 선택
+     - Display Col 2 : **EBA_PROJECT_MILESTONES.NAME** 선택
    - **``Add Page``** 버튼 클릭
 
    ![](images/set-tasks.png)
@@ -198,7 +198,7 @@ Cards 페이지는 특히 데이터가 많지 않을때 좋고 몇 가지 세부
 10. Add Calendar Page 에서 아래와 같이 입력하세요.
 
     - Page Name : **Tasks Calendar** 입력
-    - Table : **SAMPLE$PROJECT_TASKS** 선택
+    - Table : **EBA_PROJECT_TASKS** 선택
     - Display Column : **NAME** 선택
     - Start Date Column : **START_DATE** 선택
     - End Date Column : **END_DATE** 선택

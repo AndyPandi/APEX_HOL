@@ -33,7 +33,7 @@
 
 ## **파트 2** - 영역 이동
 
-수정된 Dashboard 페이지를 보면 Budget versus Cost 차트를 한줄 전부로 사용하는 것이 더 좋을것 같습니다.
+수정된 Dashboard 페이지를 보면 Budget versus Cost 차트가 한줄 전체를 다 사용하는 것이 더 좋을것 같습니다.
 
 1. 애플리케이션 실행 상태에서 개발자 도구의 **Edit Page 2** 를 클릭하거나 App Builder 브라우저로 이동 후 직접 Edit Page 2 수정 페이지로 이동합니다.
 

@@ -30,7 +30,7 @@
 
    ![](images/go-object-browser.png)
 
-3. 왼쪽 Object Browser 의 **SAMPLE$** 로 시작하는 테이블을 클릭하면 Data, Constraints 등 테이블의 상세정보를 조회할 수 있는 다양한 탭을 볼 수 있습니다.
+3. 왼쪽 Object Browser 의 **EBA_** 로 시작하는 테이블을 클릭하면 Data, Constraints 등 테이블의 상세정보를 조회할 수 있는 다양한 탭을 볼 수 있습니다.
 
    ![](images/review-tables.png)
 

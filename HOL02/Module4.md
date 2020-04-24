@@ -14,13 +14,13 @@ Create Application 메뉴에서 애플리케이션을 생성하려면 방금 생
 
    ![](images/dev-toolbar.png)
 
-   *( 참고 : 개발자 도구는 App Builder에서 애플리케이션을 실행하는 개발자에게만 표시됩니다. end-user에게 개발자 도구는 표시되지 않습니다. )*
+   *( 참고 : 개발자 도구는 App Builder에서 애플리케이션을 실행하는 개발자에게만 표시됩니다. 일반사용자에게 개발자 도구는 표시되지 않습니다. )*
 
 2. Application 메인페이지에서 오른쪽 메뉴의 Tasks 아래에 있는 **Delete this Application**  클릭.
 
    ![](images/delete-app.png)
 
-3. Confirm Delete 페이지에서 **``Permanently Delete Now``**  클릭.
+3. Confirm Delete 페이지에서 **``Permanently Delete Now``**  버튼 클릭.
 
 
 
@@ -37,14 +37,14 @@ Create an Application 메뉴에는 이전에 만들었던 애플리케이션을 
    Load Blueprint 에서 생성된 마지막 애플리케이션의 **``Load``** 버튼을 클릭하세요.
 
    ![](images/load-blueprint.png)
-
-이전에 생성했던 애플리케이션 목록이 표시됩니다.
+   
+   이전에 생성했던 애플리케이션 목록이 표시됩니다.
 
 
 
 ## **파트 3** - 마일스톤 페이지 교체
 
-마일스톤 레코드를 수정하는 방법보다는 기존 리포트와 양식 페이지를 삭제한 다음 새 페이지를 추가하고 페이지 목록에 다시 배치합니다.
+기존 마일스톤 레코드를 수정하는 방법보다는 기존 리포트와 양식 페이지를 삭제한 다음 새 페이지를 추가하고 페이지 목록에 다시 배치합니다.
 
 1. 페이지 목록의 마일스톤 항목에서 **``Edit``** 버튼을 클릭.
 
@@ -59,7 +59,7 @@ Create an Application 메뉴에는 이전에 만들었던 애플리케이션을 
 5. Add Interactive Grid 페이지에서 아래와 같이 입력하세요.
 
    - Page Name - **Milestones** 입력
-   - Table - **SAMPLE$PROJECT_MILESTONES** 선택
+   - Table - **EBA_PROJECT_MILESTONES** 선택
    - **Add Page** 클릭
 
    ![](images/set-milestones-m4.png)
@@ -74,7 +74,7 @@ Create an Application 메뉴에는 이전에 만들었던 애플리케이션을 
 
 ## **파트 4** - 상태페이지 추가
 
-**SAMPLE$PROJECT_STATUS** 테이블은 프로젝트 상태를 관리하기 위해 사용됩니다. 이 테이블은 유지관리가 가능해야 하지만 애플리케이션 관리자만 레코드를 수정할 수 있어야 합니다. 따라서 관리자 아래에 페이지를 추가하는 것이 최적의 솔루션 입니다.
+**EBA_PROJECT_STATUS** 테이블은 프로젝트 상태를 관리하기 위해 사용됩니다. 이 테이블은 유지관리가 가능해야 하지만 애플리케이션 관리자만 레코드를 수정할 수 있어야 합니다. 따라서 관리자 아래에 페이지를 추가하는 것이 최적의 솔루션 입니다.
 
 1. Create an Application 화면에서 **Add Page** 클릭.
 
@@ -83,7 +83,7 @@ Create an Application 메뉴에는 이전에 만들었던 애플리케이션을 
 3. Add Interactive Grid 페이지에서 아래와 같이 입력하세요.
 
    - Page Name - **Statuses** 입력
-   - Table - **SAMPLE$PROJECT_STATUS** 선택
+   - Table - **EBA_PROJECT_STATUS** 선택
    - **Advanced** 확장
      - **Set as Administration Page** 클릭
    - **Add Page** 클릭

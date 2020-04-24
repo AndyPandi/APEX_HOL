@@ -124,11 +124,10 @@ Tasks Report 또한 Complete 컬럼을 업데이트해야 합니다.
 컬럼 목록에서 **IS_COMPLETE_YN** 클릭.
    Property Editor (오른쪽창) 에서 다음과 같이 입력 :
    
-- Identification > Type : **Plain Text (based on List of Values)** 선택
+   - Identification > Type : **Plain Text (based on List of Values)** 선택
    - List of Values > List of Values : **YES_NO** 선택
-
-   ![](images/set-ir.png)
    
+   ![](images/set-ir.png)
 3. 애플리케이션 실행.
    Page Designer 툴바에서 **Save and Run** 클릭.
 
@@ -161,10 +160,9 @@ Tasks Calendar 페이지는 수많은 Task들을 보여줍니다. 그러나 여�
    - Set Items > Name : **P7_ID** 선택
    - Set Items > Value : **ID** 선택 ( **&ID** 입력됨 )
    - Clear Cache : **7** 입력
-- **OK** 클릭
+   - **OK** 클릭
    
-![](images/set-link-m8.png)
-   
+   ![](images/set-link-m8.png)
 5. 달력에서 호출된 Project Task 양식 페이지에서 Task Name, Start Date 또는 End Date 가 업데이트되면 달력도 업데이트 되는 것이 중요합니다.
    Rendering tree (왼쪽창) 에서 **Tasks Calendar** 마우스 오른쪽 버튼 클릭.
    **Create Dynamic Actions** 클릭.
